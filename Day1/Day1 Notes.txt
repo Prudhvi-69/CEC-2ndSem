@@ -1,0 +1,53 @@
+#include<iostream.h>
+using namespace std;
+int main()
+{
+	int variable;
+	cin>>variable;
+	cout<<"The input is : "<<variable;
+	return 0;
+}
+
+
+
+** In CPP, we must always be using return type for main function as "int" only, if we use void main like C language, it will show the error as it is expecting int main.
+ 
+** The standard header file which will store the input and output functions is : <iostream>
+							Ex : #include<iostream>
+
+** When using cin and cout, we must specify the keyword, std, everytime, if you want to avoid it, you can use a generalized statement : using namespace std; 
+
+
+public 
+private 
+protected 
+
+
+
+
+
+
+
+https://tinyurl.com/parvam-cec 
+
+
+https://tinyurl.com/CEC-student-Feedback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
