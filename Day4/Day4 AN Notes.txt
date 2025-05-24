@@ -1,0 +1,70 @@
+class A
+{
+	int age;
+	public:
+		void setter(int a)
+		{
+			age=a;
+		}
+		friend void access(A &obj);
+};
+friend void access(A &obj)
+{
+	cout<<"Accessing the value of a : "<<a<<endl;
+}
+int main()
+{
+	A obj;
+	obj.access();
+}
+
+
+
+
+
+
+
+Virtual Function : It is a function, which is going to be created in one class, but it will not contain any body in that place.
+** Just declaration will be there when you create any virtual function.
+** If you want the definition or body of the function, we need to inherit the class and with the help of another class, inside that class, we can write our own code for this virtual function..
+** Inside some other class other than which it has been created, it can have body (set of lines to perform any operation).
+** Any class, which is containing the virtual function is known as Abstract class.
+
+
+
+Friend Function : It is a special type of function which is going to access the restricted variables or private variables of a class. 
+** This function can access all these even outside the class.
+** Without the friend function we cannot access the private variables of one class outside that class, even when we are inheriting that class.
+** Remember to use the keyword friend,w hen we are declaring the function.
+** When writing the body of the function, we need not to write the keyword friend.
+
+
+
+
+
+
+ASSESSMENT🎀 https://tinyurl.com/parvam-day4
+
+
+FeedBACK 💭🤔✅
+https://tinyurl.com/CEC-student-Feedback-day4
+
+
+
+
+
+class ABC
+{
+	public:
+		int x;
+		virtual void fun()=0;
+}
+
+
+
+
+
+
+
+
+		

@@ -1,0 +1,55 @@
+class A
+{
+	public:
+		A(){  cout<<"function1 called"<<endl; }
+};
+class B:public A
+{
+	public:
+		B(){  cout<<"function2 called"<<endl; }
+}
+int main()  { 
+	B obj1;
+	A obj2;	
+}			
+
+11:21 24-05-2025
+
+11:36 
+
+
+
+
+
+
+
+class A
+{
+	public:
+		A()
+		{	
+			cout<<"Stop it....!!!!!"<<endl;
+			void surprise(){ cout<<"This is secret"<<endl;
+		}
+};
+int main()
+{
+			A obj;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
