@@ -1,0 +1,21 @@
+Write a program to check if a number is even or odd using Files and write the content into a new file totally.
+
+** Create a new file which is containing the Even or Odd code.
+** You should write the code where you use the concept of files.
+
+
+
+
+
+
+
+
+
+ASSESSMEN🫐😂https://tinyurl.com/ParvaM-day8
+
+
+feedBACK⛱️🥵
+https://tinyurl.com/CEC-Student-Feedback-Day8
+
+
+

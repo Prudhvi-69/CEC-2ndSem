@@ -1,0 +1,123 @@
+class A
+{
+	public: 
+		void add(int a, int b) 	{			cout<<"Sum is :"<<(a+b)<<endl; 	}
+}
+class B : public A
+{
+	public : 
+		void display()	{	add(40,29);		}
+}
+int main()
+{
+	B obj1;
+	A obj2;
+	obj1.display();
+	obj2.add();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inheritance : It is a concept which will let you access the things (variables, functions) belonging to one class, but they can be accessed in another class without re-writing the code for them.
+
+** It is a concept which will use the advantage of code reusability.
+** We can access the functions and data of one class outside that class, based on few metrics.
+** Those metrics are defined by access specifiers.
+** If a function is given public, it can be accessed everywhere inside the parent class, child class and main function.
+** If a function is given private, it can be accessed only inside the parent class and main function, but not inside child class.
+** If a function is given protected, it can be accessed only inside the parent class and child class but it will have problem accessing outside these two classes.
+** The inheritence between two classes can happen by using the (scope operator : A.K.A colon). 
+** While inheriting, at the start of child class, we need to mention, the keyword public infront of the child class and name of parent class.
+** Depending on how you want to access the things of classes, there are different types of inheritance.
+** In C++, we have 5 types of inheritance.
+ 
+1. Single Inheritance
+2. Multiple Inheritance
+3. Multi-level Inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Single Inheritance : It is a type where there's only one parent class and one child class.
+
+** In this type of Inheritance, the child class access everything that is public and protected inside the parent class.
+** Private functions are not allowed to access in child class.
+
+2. Multiple Inheritance : It is a type of Inheritance, where there are multiple parent classes, but only one child class.
+** The child class will be inheriting the concepts/functions/data from multiple classes.
+
+** In this type of Inheritance, the child class access everything that is public and protected inside the parent class.
+** Private functions are not allowed to access in child class.
+Class A CLass B 
+		\			/
+		 \		 /				
+		Class C 	
+
+
+
+
+
+
+
+11:21 26-05-2025
+11:36 
+
+
+
+
+
+
+
+
+
+
+GitHub Repo Link🥵🎀🔥
+https://github.com/Prudhvi-69/CEC-2ndSem
+
+
+
+3. Multi-level Inheritance : It is a type of Inheritance which is going to follow the basic Single Inheritance concept, but it will be repeated multiple times between multiple levels.
+
+** Each Child class must contain only one direct Parent class.
+** Each Parent class must contain only one direct Child class.
+
+CLASS A
+		 |
+		 ^
+CLASS B 
+		|
+		^
+CLASS C
+
+** In the above example, class A is giving its properties to the class B through single inheritance.
+** After the class B is created, it is giving its properties to the class C through another single inheritance.
+** When you look at all 3 classes at once, it is considered as the Multi-Level Inheritance.
+
+
+
+
+
+
+
+

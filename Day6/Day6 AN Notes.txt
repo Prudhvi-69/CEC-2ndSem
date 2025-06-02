@@ -1,0 +1,41 @@
+Write a program by taking String input, consisting the set of alphabets and numerical values and display the maximum digit in it.
+
+Sample Input : "5This3 Str7in69g i20 420" 
+
+Digits : 5 3 7 6 9 2 0 4 2 0
+Output : 	9  			  
+
+String : "Input" "City College" "Bike" "Programming"
+
+
+
+
+
+
+string str = "5This3 Str7in69g i20 420" 
+char max='0';
+for(char c : str)
+{
+	if( c >= 48 && c <= 57)
+	{
+			if( max < c) // 55<57
+					max = c ; // max=9
+	}
+}
+cout<<"Max digit is : "<<max;
+
+
+
+
+
+ASSESSMENT ⛱️🫐https://tinyurl.com/parvam-day6
+
+🫠🫂 https://tinyurl.com/CEC-student-feedback-day6
+
+
+
+
+
+
+
+

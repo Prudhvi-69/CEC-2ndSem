@@ -1,0 +1,99 @@
+#include<iostream>
+int main()
+{
+	int a,b;
+	cin>>a>>b;
+	int c;
+	c = a/b;
+	cout<<c;
+}
+
+
+
+
+Exception : Exceptions are known as the Runtime errors, which are going to be identified during runtime under specific scenarios.
+
+** For a same code, we may not get the runtime error everytime, depending on the values in the input, depending on the code we are writing, we may get the error or we may not get the error.
+
+** The bad thing about runtime errors A.K.A Exceptions is, once they are encountered, they may crash the code, or stop the program execution in the middle without any warning or any notice.
+
+** Inorder to handle the Exceptions we have a concept known as Exception handling. 
+** Exception handling is going to let your program work normally even when there is a problem in the code and also when there are runtime errors.
+
+** In Exception handling, to handle them we are going to use the header file known as : "exception"
+** Inside that header, there's going to be few keywords which are used to make the handling of exceptions work.
+** The keywords to handle the exception are : try, catch, throw.
+
+try : try block is going to contain the code, which we think might raise an exception.
+	** We dont know it will always contain the error code, but if there is any Exception, it is 		going to handle that Exception
+
+** In a program, we are going to contain at max, only one try block.
+** Everytime the try block activates by an Exception, it is going send the control of the program to something known as Catch() block..
+
+catch() : catch block is going to catch the Exception and execute a set of statements related to the Exception and run the program even after the Exception.  
+
+** In a program there can be multiple catch blocks at a time referencing the type of Exception that is being catched.
+
+throw : Whenever we are going to get the Exception, we have to send the control to the catch block without interrupting the program flow of execution.
+
+** throw can be written in multiple places inside the code.
+
+** Wherever the existense of throw keyword, it will throw a value as a parameter to the catch block......
+
+
+Note : In a program if we are having try block, the following line of code after try block should always be, catch block().
+ 
+** There has to be exactly one try block in a program, but according to the type of Exceptions, we can have multiple catch blocks followed by try block preceeding them.
+
+** Catch block gets executed only when there is an Exception. Entire code inside all the catch blocks will be skipped and ignored during the prpgram execution and the code after the catch block will be executed normally.
+
+
+ 
+
+
+
+https://quiz.meikuraledutech.in/
+
+
+Once the test starts, you are strictly not allowed to switch tabs or browser windows.
+If you try to do so, the test will automatically restart, and you may lose your progress.
+
+After completing the test, you will be asked to download a result file in the following format:
+📄 quiz_result_rten2025-05-30.enc
+
+You must rename the downloaded file to this format:
+🔁 CEC_IRP_MAY_25_CPP_NAME_USN.enc
+(Please replace NAME with your full name and USN with your university seat number.)
+
+
+https://bit.ly/3FraXIO
+
+
+
+
+
+https://drive.google.com/drive/folders/1fIZExs3-wVKzL5wPIhUL8SirmKArqfAm
+
+ISE WIFI : ise@2025 
+
+
+
+
+
+Finally, upload the renamed file to this link:
+🔗 https://tinyurl.com/CECIRP30MAY25ResultUpload
+Write a program to execute 4 types of catch block which is connected to only one try block.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

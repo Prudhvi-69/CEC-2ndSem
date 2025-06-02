@@ -1,0 +1,37 @@
+						Principal 
+					_/_____\______	_____ ____
+				  /					 \					\				\			\
+			CSE_HOD		ECE		AIML   IOT   Civil
+						\____			|		  /				|				|
+									\			|     /					|				|	
+									Students -----------				|
+												|______________	|
+
+
+
+
+4. Hierarchical Inheritance : In this type of Inheritance, we are going to perform a tree structure.
+
+** In this Inheritance, we are going to have one Parent class, and multiple Child classes.
+
+
+
+
+
+ASSESSMiNT🎀😂
+https://tinyurl.com/parvam-day5
+
+
+feedBACK 👀💭✅
+https://tinyurl.com/CEC-student-Feedback-day5
+
+
+
+
+
+
+
+
+
+
+

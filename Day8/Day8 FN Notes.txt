@@ -1,0 +1,110 @@
+iostream____ 
+			/    			  \
+   ostream 		istream
+
+
+
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+	file ostream("Day8.txt");
+	file<<"This is just the beginnning😏";
+	file.close();
+}
+
+Files : Files are used to extract the data if there's an existing file, create a new file when there is something needed.
+
+** Everytime when you are working with a file, there has to be a file type that has to be mentioned.
+** Working with files in programming is essential, because extraction of data can happen when we are working in a shared environment.
+** When you want to work with files in programming, specially in C++, we are going to use the header file named : "fstream".
+
+fstream : fstream is a header file which is going to contain the functions, classes related to files and their operations.
+
+** Just like inside the iostream header file, there is a special class for input functionalities and there is a special class for output functionalities like, istream for input and ostream for output, we have similar classes inside fstream also for files.
+
+** For input functionalities into a file, we have ifstream.
+** For output functionalities from a file, we have ofstream.
+
+** With the help of these two clases we can perform input and output operations from and to a file.
+
+ofstream : This class works in two different formats.
+1. The file name which you are giving to it, if there is no such file, this class is going to create a new file with that specified name and file type.
+2. If there is any file with the same name and same file type, it is going to open that file, and re-write the entire content in it.
+** That means, in second case, it will replace the old content with new data.
+
+
+ifstream : This is going extract the data from the file if it is existing in the path specified.
+
+** It will work in only one mode of operation, which is known as extracting the data from the file.
+** It can extract with the help of a function inside the string.h header file known as : "getline(file,line)"
+
+** This getline() function is going to access the file, when you are opening any file and access each and every line from the beginning and store inside the string variable which we pass to it. 
+
+** In th above example, the file is : file, and the string is : str.
+** It can access only one line at a time.
+** If we want to access multiple lines of data, we can use a loop to iterate through the file multiple times until the end of the file.
+
+
+
+File operations : The tasks/operations which we can do/perform on or inside the files.
+
+** There are multiple types of operations we can perform on files.
+
+	1. Read from the file.
+	2. Write into the file.		
+	3. Append into the write.
+
+1. Read from the file : Reading operation can be done with the help of ifstream class.
+	** Reading can extract the entire data from the file.
+2. Write into the file : Writing operation can write new data into a new file. 
+	** If you are opening an existing file, it will erase the full data and add new data into the file.
+3. Append into the file : Appending will add new data into a new file.
+	** If you are opening an existing file, it will write new data, at the end of old data inside the file, without erasing or removing any old data.
+
+
+
+
+
+
+
+
+
+
+https://quiz.meikuraledutech.in/
+
+
+
+
+
+
+
+
+Output : 
+
+** Creation of the file : "WorkingFiles.cpp".
+** A C Plus Plus program file will be created in the same location as the old file is running.
+** Search for the name : WorkingFiles.cpp file.
+** Open that file, you can see the code which has been written through another program.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

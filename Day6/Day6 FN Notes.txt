@@ -1,0 +1,107 @@
+//Applicable for all students in this class.....
+
+if ( ! boys != true)
+	stay.Silent();
+else if ( ! girls == false)
+	stay.silent();
+else
+	youCan.talk();
+
+
+
+
+
+
+
+
+class A
+{
+	public:	
+		A() { cout<<"first class"<<endl; }
+		~A() { cout<<"delete first"<<endl; } 
+}
+class B : public A
+{
+	public:	
+		B() { cout<<"second class"<<endl; }
+		~B() { cout<<"delete second"<<endl; } 
+}
+int main()
+{
+	B obj;
+}				
+
+
+
+
+
+
+
+
+Destructor in Inheritance : 
+
+** If there is an existense of destructor in Parent class and Child class, while performing inheritance, there is a possibility and confusion, when the object goes out of scope, which destructor will be called....???
+
+** In such cases, when you create object for Child class, the child class object will call the default constructor inside the Parent class FIRST, and comes down to call the Child class constructor.
+** When the scope of object is over, it will call the Child class destructor FIRST, then it'll call the Parent class destructor.
+
+** The process of calling constructor will be from Parent to Child.
+** The process of calling destructor will be from Child to Parent.
+
+Polymorphism : It will basically perform data binding, between the functions in the class and objects. 
+** If there is a concept of compile time Polymorphism, the system will perform static binding.
+** If there is a concept of run-time Polymorphism, the system will perform dynamic binding.
+
+** Static Binding : is something where we can analyse the existense of a same function name, multiple times with different SIGNATURE.
+** Signature referring to, difference in number of parameters, types of parameters and arrangement of parameters. 
+
+** Dynamic Binding : is something where we can analyse the existense of a function having multiple forms, during runtime. (Applicable and observable during Inheritance only) 
+
+
+
+
+
+QUIZ😏https://quiz.meikuraledutech.in
+
+11:40 27-05-2025
+12:00 
+
+
+
+
+
+Runtime Polymorphism : It is going to perform Dynamic Binding, between the functions and the objects.
+
+** It is going to perform a process known as Function Overriding.
+** When you want to execute the concept of overrding, we need to perform inheritance first.
+** Existense of a function in Parent class and also inside the Child class, will modify the entire code of function inside Child class.
+** Overriding a function will keep the original form inside the Parent class intact.
+\
+
+
+
+
+
+
+
+Write a program by performing Hierarchical Inheritance and use the concept of Overriding...............................!!!!!!!!!!!!!
+
+#Code #Programmer #Hacker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

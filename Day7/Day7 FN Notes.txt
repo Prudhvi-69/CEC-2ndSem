@@ -1,0 +1,59 @@
+Pointer : It'll store the address of a variable.
+
+Reference : It is going to give you the access of address
+Dereference : It is going to give you the access of value in that address.
+
+Using & : This is used to access the address of a variable or pointer
+Using *  : This is used to travel from current place to address and access the value in that address (Applicable only for Pointers). 
+
+
+11:16 28-05-2025
+
+
+
+
+
+
+Dynamic Memory Allocation : It is allocating memory/space to the variables inside the Storage/Memory.
+** Only difference from a normal memory allocation is, 
+			-> Normal memory allocation will use the space inside the Stack.
+			-> Dynamic Memory allocation will use the space inside Heap.
+
+** The memory allocated using Heap, will be flexible to work with.
+** That memory space can be deleted once the usage is done in the program.
+** In Static Memory allocation, the space allocated for variables will be deleted or freed once the program execution is finished.
+** With Dynamic Memory allocation, we can delete the variable space/memory when not needed, in the middle of the program.
+
+** To allocate memory dynamically, we are going to use the keyword, "new" at the time of declaring the variable.
+** Once the usage with the variable is done, we can deallocate the memory using the keyword : "delete"  
+
+ 
+
+
+New :
+
+Delete : 
+
+
+
+
+
+
+//Applicable for all Students
+//Everyone see
+if (boys== true)
+	stand();
+else if (girls == true)
+	stand();
+else
+	youCanSit();
+
+
+
+
+
+
+
+
+
+

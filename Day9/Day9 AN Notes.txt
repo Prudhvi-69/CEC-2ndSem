@@ -1,0 +1,38 @@
+STL (Standard Template Library) : It is going to provide the functions, classes and templates which are already coded, loaded and ready to use.
+** With the help of STL, we can reduce the time taken to run some processes, programs, operations.
+** STL will provide 3 types of advantages. They are, 
+1. Containers 
+2. Alogrithms
+3. Iterators
+
+1. Containers : Containers are going to store data, organize data, work under multiple operations and scenarios.
+** Sample : Vector, List, Stack, Queue. 
+** You can access all containers with the specific header file.
+
+
+Vector : Vector is a container which is going to work as similar to an Array.
+** The difference is, in an Array, we have limited and fixed size for it.
+** In Vector, we can increase the size of the array when extra is needed, decrease when we want to save space.
+** It will provide access for builtin functions,which will make our program execution easy.
+** Implementation of vector can be done,with the help of 
+	the header file : #include<vector>
+
+** We can insert elements into a vector in 3 ways.
+
+** Functions to to insert values into the Vector : 
+	1. push_back()  : used to insert an element at the ending
+	2. insert() : takes two parameters and insert the element at the specified 							index 
+	
+
+
+
+
+https://tinyurl.com/ParvaM-day9
+
+https://tinyurl.com/CEC-Student-Feedback-Day9
+
+https://tinyurl.com/Registration-30may25
+
+
+
+
